@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Douglas">
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    </listeners>
+
+    <test name="Random And Count">
+        <classes>
+            <class name="testcases.RandomCase" />
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="TestCase">
+        <classes>
+            <class name="testcases.TestCase" />
+        </classes>
+    </test> <!-- Test -->
+
+
+</suite> <!-- Suite -->
